@@ -40,6 +40,7 @@ class Path
     @search_count = 0
     loop_from_node(value)
     result = @search_count == 1 ? 'Harta Karun' : 'Anda tertipu' # check if only one treasure find on the end of the path
+    # result = @search_count >= 1 ? 'Harta Karun' : 'Anda Tertipu' # check if one or more treasure find on the end of the path
     p result
   end
 
